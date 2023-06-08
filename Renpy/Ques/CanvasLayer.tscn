@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Ques/CanvasLayer.gd" type="Script" id=1]
+
+[node name="CanvasLayer" type="Node2D"]
+position = Vector2( -314, -1 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 78.0
+margin_top = 3.0
+margin_right = 899.0
+margin_bottom = 359.0
+color = Color( 0.701961, 0.701961, 0.701961, 1 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="LineEdit" type="LineEdit" parent="."]
+margin_left = 373.0
+margin_top = 142.0
+margin_right = 548.0
+margin_bottom = 166.0
+align = 1
+caret_blink = true
+caret_blink_speed = 0.5
+__meta__ = {
+"_edit_use_anchors_": true
+}
